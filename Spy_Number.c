@@ -14,8 +14,8 @@ int main()
     {
         printf("Spy Number");
     }
-    else
-    {
-        printf("Not Spy Number");
-    }
+ else
+ {
+     printf("Not Spy Number");
+ }
 }
