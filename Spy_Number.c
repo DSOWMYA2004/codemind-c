@@ -8,14 +8,14 @@ int main()
         i=n%10;
         n=n/10;
         sum+=i;
-        pdt=pdt*i;
-    }
+pdt=pdt*i;
+}
     if(sum==pdt)
     {
         printf("Spy Number");
     }
- else
- {
-     printf("Not Spy Number");
- }
+else
+{
+    printf("Not Spy Number");
+}
 }
