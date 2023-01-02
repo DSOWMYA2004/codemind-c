@@ -5,10 +5,10 @@ int main()
     scanf("%d",&n);
     while(n!=0)
     {
-        r=n%10;
-        sum=sum+r;
-        m=m*r;
-        n=n/10;
+    r=n%10;
+    sum=sum+r;
+    m=m*r;
+    n=n/10;
     }
     printf("%d",m-sum);
 }
