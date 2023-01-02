@@ -8,14 +8,14 @@ int main()
     {
         a=i%10;
         sum+=a;
-        i=i/10;
-    }
+i=i/10;
+}
     if(sum==n)
     {
         printf("Neon Number");
     }
-    else
-    {
-        printf("Not Neon Number");
-    }
+else
+{
+    printf("Not Neon Number");
+}
 }
