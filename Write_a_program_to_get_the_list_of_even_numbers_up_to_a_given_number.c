@@ -6,8 +6,8 @@ int main()
     for(i=n;i<=m;i++)
     {
         if(i%2==0)
-        {
-            printf("%d ",i);
-        }
-    }
+    {
+    printf("%d ",i);
+}
+}
 }
